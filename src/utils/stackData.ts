@@ -4,9 +4,9 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+import { DiResponsive } from "react-icons/di";
 
 export const stackData = [
   {
@@ -21,19 +21,18 @@ export const stackData = [
     title: "JS",
     img: imgJS,
   },
+  { title: "TypeScript", img: SiTypescript },
   {
-    title: "Node JS",
-    img: imgNode,
+    title: "React",
+    img: imgReact,
   },
   {
     title: "Styled Components",
     img: imgStyled,
   },
+  { title: "Responsive Web Design", img: DiResponsive },
   {
-    title: "React",
-    img: imgReact,
+    title: "Node JS",
+    img: imgNode,
   },
-  { title: "Vuejs", img: FaVuejs },
-  { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
 ];
